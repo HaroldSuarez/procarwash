@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url(menu_derecha.css);
+@import url(menu_izq.css);
+@import url(section.css);
+@import url(slider_style.css);
+@import url(formulario.css);
+@import url(ubicacion.css);
+@import url(galeria.css);
+@import url(somosestilo.css);
+@import url(servicioss.css);
+
+body{
+    font-family: Helvetica;
+    background-image: url(../img/formulario_image.jpg);
+    background-size: 100% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color:  rgba(180, 229, 252, 0.904);
+    display: flex;
+    justify-content: space-between;
+}
+#botonimg{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+h2{
+    color: white;
+    padding: 0;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 12em;
+    background-color: rgba(180, 229, 252, 0.904);
+    margin-bottom: 0px;
+}
+.superiorfooter{
+ padding-top: 2.3em;
+ 
+}
+footer ol{
+  
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+   
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+footer h2{
+   margin-top: 0;
+}
+@media(max-width: 600px){
+    h2{
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.menu > li{
+    
+    position: relative;
+    display: inline-block;
+    
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+.submenu{
+    width: 330px;
+    right: 0px;
+    position: absolute; 
+    height: 300px;
+    display: none;
+    background-color:  rgba(247, 247, 247, 0.904);
+
+}
+
+.seccion_menu{
+  text-align: center;
+}
+.menu li:hover{
+    background-color:  rgb(54, 188, 250);
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+.logo{
+    min-width:  120px;
+    max-width: 130px;
+    vertical-align: middle;
+}
+
+section{
+    padding-top: 3.2em;
+}
+.enviados input{
+  
+    padding: 5px ;  
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+}
+.enviados input:focus{
+    border-bottom: 2px solid rgb(54, 188, 250);
+}
+.btn_iniciar{
+    padding: 5px ;
+    text-align: center;
+    width: 50%;
+    border: 2px solid #ccc;
+    outline-color:  rgb(54, 188, 250);
+}
+#eye{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.ojitover.active{
+   border-radius: 50%;
+   background-color:  rgb(54, 188, 250);
+}
+.iconuser {
+    padding: 9px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.formuser{
+    padding-left: 0px;
+}

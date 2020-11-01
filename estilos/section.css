@@ -1,0 +1,59 @@
+.box{  
+    display: flex;
+    flex-wrap: wrap;
+}
+.box h2{
+    font-size: 30px;
+    color: rgb(176, 154, 253);
+}
+.titleservi{
+    padding-top: 20px;
+color: white;
+font-size: 50px;
+text-align: center;
+}
+.text{
+    font-size: 20px;
+    margin: 2em;
+    width: 100%;
+    top: 30%;
+    padding: 2em 2em;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 1%;
+   
+}
+.imgmision-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgmision img{
+    margin-top: 50px;
+    max-width: 150px;
+    margin-left: 50px;
+}
+.imgmision{
+ margin: 0 0 20px 20px;
+ height:250px;
+ width:250px;
+ border-radius:50%;
+ background-color: rgba(255, 255, 255, 0.842);
+}
+
+@media (max-width: 750px){
+    .text{
+        top: 18%;
+    }
+    .imgmision img{
+        margin-top: 10px;
+        max-width: 100px;
+        margin-left: 10px;
+    }
+    .imgmision{
+     margin: 0 0 0 10px;
+     height:120px;
+     width:120px;
+     border-radius:50%;
+    }
+    
+}

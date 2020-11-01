@@ -1,0 +1,72 @@
+.divlogo{
+   
+    margin: 10em 4em 2em 4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.logopro{
+    width: 100%;
+    text-align: center;
+   
+    background-color: rgba(126, 169, 250, 0.842);
+ 
+}
+.titleservi{
+    font-size: 60px;
+}
+
+.logopro h2{
+    
+    font-size: 100px;
+}
+.textsomos{
+    color: aliceblue;
+    align-content: center;
+    padding: 0 20px 0 20px ;
+    text-align: justify;
+}
+.imgcarpro{
+
+    height: 100px;
+    width:120px;
+}
+.iconone{
+    padding: 2em;
+}
+.iconone img{
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 10%;
+    padding: 20px;
+    height: 100px;
+    width:  100px;
+}
+.textsomos p{
+font-size: 20px;
+}
+.textC p{
+    text-align: center;
+    font-size: 25px;
+}
+.ordenservi div a{
+font-size: 34px;
+}
+@media (max-width: 697px){
+    .divlogo{
+        margin: 10em 2em 2em 2em;
+    }
+    .logopro h2{
+        font-size: 50px;
+    }
+    .iconone img{
+        height: 40px;
+        width:  40px;
+    }
+    .imgcarpro{
+
+        height: 85px;
+        width:95px;
+    }
+    
+}
